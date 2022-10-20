@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: var(--primary-white-color);
+    background-color: #f5f5f5;
     color: var(--primary-text-color);
 }
 
@@ -75,7 +75,8 @@ ul {
 }
 
 .features .title,
-.workers .title{
+.workers .title,
+.projects .title {
     color: var(--secondary-text-color);
 }
 
@@ -100,4 +101,18 @@ footer {
 .contact {
     color: #ffffff99;
     text-decoration: none;
+}
+
+
+
+
+.filter {
+    color: var(--secondary-text-color);
+    background-color: #f5f4fa;
+}
+
+.filter:hover,
+.filter:focus {
+    color: #fff;
+    background-color: var(--accent-color);
 }
