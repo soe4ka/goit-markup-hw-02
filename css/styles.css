@@ -15,15 +15,11 @@ body {
   font-size: 16px;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
-
-  background-color: var(--primary-background-color);
 }
 
 .list { list-style: none;    }
 
 .link { text-decoration: none; }
-
-.top { background-color: var(--primary-white); }
 
 .nav-logo {
   font-family: 'Raleway', sans-serif;
@@ -84,9 +80,6 @@ body {
   border: none;
   cursor: pointer;
 }
-
-.section { background-color: var(--primary-background-color); }
-.projects-section { background-color: var(--primary-white); }
 
 .section-title {
   font-size: 36px;
